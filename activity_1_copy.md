@@ -1,4 +1,5 @@
 # Use Case Development
+### Chris Coulthrust
 
 ### Objective
  Use M365 Copilot or another AI tool to develop a use case statement into a set of tools, actions, workflow and data, that can then be used to create an agentic system. The goal is to understand how to decompose use cases into a set of tools, actions and workflow then express the system with technology to achieve a business outcome. 
