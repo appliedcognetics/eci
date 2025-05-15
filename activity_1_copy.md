@@ -164,7 +164,19 @@ graph TD
 
 You dont have access to any API so please generate your own mock data
 
+## Prompt
+```text
+refine the prompt so i can cut and paste the instruction into my LLM playground can you putput this as markdown please.
+```
 
+
+## Final Step 
+
+- Start AI Foundry 
+- Go to Agent Playground
+- Create and Agent
+- Cut and Paste the final prompt into the agent
+- Test the Agent 
 
 
 
