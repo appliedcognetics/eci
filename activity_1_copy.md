@@ -84,16 +84,13 @@ Check that we are satified with the output and continue to iterate on the output
 My plan is to use the mermaid diagram to guide the workflow of the agent, I need instruction for the LLM agent about how to use the mermaid diagram and information about the persona of the agent so that I can create this agent 
 
 ```
-## Output
+## Step
 ```text
-We will take this output and use it in the AI Foundry to create and observe the agent in action
+We will take the following output and use it to create an Agent in the AI Foundry to test and observe the agent in action
 ```
 
-----
-
-Sure! Here is the refined instruction prompt in markdown format for your LLM playground:
-
 ---
+<div style="border: 2px solid #000; background-color:rgb(87, 80, 80); padding: 10px; border-radius: 5px;">
 
 ### Instruction Prompt for Check-in Assistant LLM Agent
 
@@ -163,14 +160,26 @@ graph TD
    - **Reassuring:** Reassure passengers that their issues will be resolved, either through automated processes or human assistance.
 
 You dont have access to any API so please generate your own mock data
+</div>
 
 ## Prompt
 ```text
 refine the prompt so i can cut and paste the instruction into my LLM playground can you putput this as markdown please.
 ```
 
+# Implement your Agent in Azure AI Foundry
 
-## Final Step 
+Review your agent instructions you may need to tweak it a bit. Because I didn't have access to the API for mock data I added the following line as a stop gap.
+```text
+You dont have access to any API so please generate your own mock data
+```
+
+<div style="border: 2px solid #000; background-color:rgb(119, 96, 96); padding: 10px; border-radius: 5px;">
+New to Azure? Get $200 in credits when you sign up for an Azure free account. Credits can be used on most Azure services, including for AI app templates.
+[Try Azure for free](https://azure.microsoft.com/pricing/purchase-options/azure-account/?icid=azure-github-io)
+</div>
+
+## Final Step Deply to AI Foundry 
 
 - Start AI Foundry 
 - Go to Agent Playground
