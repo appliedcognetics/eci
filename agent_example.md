@@ -1,6 +1,19 @@
 
 # AI FOUNDRY WORKSHOP (Prototype)
 
+```mermaid
+graph TD
+  A[DealCrawler: Data Gathering] --> B[DiligenceSynthesizer: Report Structuring]
+  B --> C[StakeholderCoordinator: Feedback Routing]
+  C --> D[HumanReviewLoop: Expert Review]
+  D --Clarification/Additional Queries--> A
+  A --> E[AuditTrailRecorder: Logging Actions]
+  B --> E
+  C --> E
+  D --> E
+
+```
+
 ## Demo the exisiting System
 ### Audience Follow Along or create and extend the agent
 
@@ -378,5 +391,6 @@ The output must be formatted as a **JSON object** with the following fields:
 - **Placeholder Values**: Replace all example names, URLs, and data with realistic yet fictional equivalents.
 - Ensure that all references and sources point to plausible URLs or reports, consistent with the expected domain of the company (e.g., tech, finance, healthcare).
 - Include at least one fictional notable event and red flag where appropriate for realism.
+
 
 ----
