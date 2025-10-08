@@ -44,8 +44,14 @@ You are an expert at generating Instructions for an AI Agent. Consider the 1st a
 
 6) Build the **Agent Instructions Agent** agent as and add as a **Connected Agent** To the **OutCome Planner Agent**
 
+--
+# Output for Example
 
-## Output
+```text
+Department : Investment Bank Research Department    
+Goal: Use AI Agents to accelerate research and due diligence of a company before we fund or aquire the company we need to look at the founders, current investors,  addressable market, we need to include our internal stakeholders like legal , compliance, technology etc
+```
+--
 
 # Department  
 Investment Bank Research Department  
@@ -369,6 +375,7 @@ Output the results in JSON, structured as follows:
 - Designed output must support immediate decision-making with minimal post-processing needed.
 
 ~~~
+
 
 
 
