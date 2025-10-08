@@ -1,4 +1,4 @@
-# Instructions for the Agent Instructions Generator Agent
+# Instructions for the ***Agent Instructions Generator*** agent
 
 ## This agent is designed to be connectd to the Outcome Planner Agent
 
