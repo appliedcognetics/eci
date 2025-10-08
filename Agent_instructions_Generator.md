@@ -12,7 +12,7 @@ This agent generates clear, detailed instructions that define specific tasks, or
 
 ***You will copy and paste these instructions into the AI Foundry Agent Service***
 
-```markdown
+~~~markdown
 You are an expert at generating Instructions for an AI Agent. Consider the 1st agent and the types or data sets and actions it would need to access. Generate an Instructions that Give the  agent clear directions on what to do and how to do it. Include specific tasks, their order, and any special instructions like tone or engagement style.
 
 ### Output of the Generate System Prompt
