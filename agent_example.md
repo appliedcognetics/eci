@@ -1,10 +1,15 @@
 
 # AI FOUNDRY WORKSHOP (Prototype)
 
+## To create this Multi-Agent Prototype you will need AI Foundry, follow these steps
+
+1) Build the Outcome Plannner Agent [OutCome Planner Agent](./OutcomePlannerAgent,md)
 
 
 ## Demo the exisiting System
 ### Audience Follow Along or create and extend the agent
+
+
 
 
 
@@ -431,5 +436,6 @@ The output must be formatted as a **JSON object** with the following fields:
 
 
 ----
+
 
 
