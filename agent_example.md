@@ -4,13 +4,21 @@
 ## To create this Multi-Agent Prototype you will need AI Foundry, follow these steps
 
 1) Build the Outcome Plannner Agent [OutCome Planner Agent](./outcome_planner_One_foundry.md)
+2) Build the **Agent Solution Designer** agent [Agent Solutions Designer Agent](./Agent_solution_Designer.md)
+3) Add the **Agent Solution Designer** agent as a **Connected Agent** to the **Outcome Planner Agent**
+4) Test the two agent system with the prompts below
 
+
+## Solution Workflow Diagram
+```mermaid
+graph TD
+  OutcomePlanner --> AgentSolutionDesigner
+  AgentSolutionDesigner --> OutcomePlanner
+  OutcomePlanner --> Output final Solution
+```
 
 ## Demo the exisiting System
 ### Audience Follow Along or create and extend the agent
-
-
-
 
 
 
@@ -28,8 +36,13 @@ Goal: Use AI Agents to accelerate research and due diligence of a company before
 ``` Text
 You are an expert at generating Instructions for an AI Agent. Consider the 1st agent and the types or data sets and actions it would need to access. Generate an Instructions that Give the  agent clear directions on what to do and how to do it. Include specific tasks, their order, and any special instructions like tone or engagement style.
 
-You have a connected agent called DealCraweler that you are able to access so include this agent in your instructions, the DealCrawler will generate the company profile information needed include instructions on calling dealcrawler if you need to get company information 
 ```
+
+## Next Steps
+### Adding the Agent Instructions Generator
+
+6) Build the **Agent Instructios Agent** agent as and add as a **Connected Agent** To the **OutCome Planner Agent**
+
 
 ## Output
 
@@ -436,6 +449,7 @@ The output must be formatted as a **JSON object** with the following fields:
 
 
 ----
+
 
 
 
