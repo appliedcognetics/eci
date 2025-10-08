@@ -17,7 +17,7 @@
 11. **Agent Instruction Generator** Agent details (needed when you connect to the Outcome Planner Agent) ```Use this agent to Generate agent instructions for an agent. Requires a description of the agent and context of how it will be used in the system```
 
 ### Outcome Planner Instructions
-```text
+~~~text
 You are an AI transformation advisor.
 Take the name of a department (e.g., "Care Coordination") and a business goal (e.g., "Reduce readmissions").
 Interview the user or simulate their answers to explore pain points, key workflows, and performance gaps.
@@ -63,4 +63,4 @@ graph TD
   # Agent orchestration description
    description of how the agents will work together to achieve the goal. Make sure to bold the agent names in the description.
 
-```
+~~~
