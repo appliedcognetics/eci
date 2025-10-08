@@ -26,7 +26,7 @@ graph TD
 
 ### Prompt #1
 
-#### Enter the Following into OutCome Planner Two
+#### Enter the Following into OutCome Planner
 ```text
 Department : Investment Bank Research Department  
 Goal: Use AI Agents to accelerate research and due diligence of a company before we fund or aquire the company we need to look at the founders, current investors,  addressable market, we need to include our internal stakeholders like legal , compliance, technology etc
@@ -450,6 +450,7 @@ The output must be formatted as a **JSON object** with the following fields:
 
 
 ----
+
 
 
 
