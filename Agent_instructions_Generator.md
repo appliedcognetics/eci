@@ -100,4 +100,4 @@ The output format should be explicitly stated depending on the task. Here are th
 2. Use the formula: Area = π × r².  
    - Example: If the radius is 5, Area = 3.14 × 5² = 78.5 square units.  
 3. Round to appropriate precision if necessary.  
-```
+~~~
