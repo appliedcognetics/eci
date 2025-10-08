@@ -3,7 +3,7 @@
 
 ## To create this Multi-Agent Prototype you will need AI Foundry, follow these steps
 
-1) Build the Outcome Plannner Agent [OutCome Planner Agent](./OutcomePlannerAgent,md)
+1) Build the Outcome Plannner Agent [OutCome Planner Agent](./outcome_planner_One_foundry.md)
 
 
 ## Demo the exisiting System
@@ -436,6 +436,7 @@ The output must be formatted as a **JSON object** with the following fields:
 
 
 ----
+
 
 
 
