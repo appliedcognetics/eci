@@ -97,9 +97,7 @@ graph TD
 
 The diligence workflow begins with the **DealCrawler**, which automates the collection of relevant data (company, founders, investors, and market) from multiple sources. The data is passed to the **DiligenceSynthesizer**, which organizes and structures these findings, tagging salient risks, opportunities, and gaps in a standardized dossier format. The **StakeholderCoordinator** then distributes the dossiers to appropriate internal teams (Legal, Compliance, Technology) and tracks their status and comments, aggregating feedback for a collaborative review. Next, the **HumanReviewLoop** presents synthesized findings and feedback to designated human reviewers, enabling them to provide deep insights, request clarifications, or initiate secondary queries, which are then routed back to prior agents if further investigation is warranted. Throughout the process, the **AuditTrailRecorder** captures all agent activities and human interventions into an immutable audit log, supporting regulatory compliance and internal transparency. This orchestration streamlines due diligence, ensures consistency, accelerates decision-making, and reduces risk exposure by embedding both automation and expert judgment throughout the process, while providing a robust, auditable trail for every decision and interaction.
 -----------
-# Demo
-# Other Agents
-
+# Demo Investment Memo Researcher
 
 # Instructions for CompanyProfileGather
 
@@ -375,6 +373,7 @@ Output the results in JSON, structured as follows:
 - Designed output must support immediate decision-making with minimal post-processing needed.
 
 ~~~
+
 
 
 
