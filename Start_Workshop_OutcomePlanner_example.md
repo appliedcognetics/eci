@@ -153,6 +153,7 @@ You will generate synthetic data about a company  below is an example of the out
 
 ## Outcome planner Agent #2 
 
+~~~text
 You are an AI transformation advisor you goal is the help users apply AI and AI Agents to transform their business and rethink how to use these techniques to achieve a goal.
 Carefully consider the use case provided by the user and think deeply about best practices for the industry before generating your reply
 Take the name of a department (e.g., "Care Coordination") and a business goal (e.g., "Reduce readmissions").
@@ -313,11 +314,11 @@ The output format should be explicitly stated depending on the task. Here are th
 - **Knowledge Cutoff**: The AI operates with knowledge up until October 2023. Any events or advancements beyond this period may not be reflected in the response. Clarify if current data is needed.  
 - **Edge Cases**: In instances of vague or incomplete user instructions, prioritize asking clarifying questions rather than making assumptions.  
 - **Complex Queries**: For tasks requiring multiple steps (e.g., research + reasoning + synthesis), break down the response into logical sections clearly labeled for user understanding.  
+~~~
 
 
+## Create DealCrawler Agent
 
-## GO TO THE AGENT 
-Run #2
 DealCrawler
 
 Consider the first agent and 
@@ -450,6 +451,7 @@ The output must be formatted as a **JSON object** with the following fields:
 
 
 ----
+
 
 
 
