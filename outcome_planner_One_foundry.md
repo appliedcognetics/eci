@@ -1,4 +1,20 @@
+## OutCome Planner Agent
 
+### Below is the instructions for the OutCome Planner Agent use the code in AI Foundry to Create your agent
+
+
+### Steps
+1. Go to ai.azure.com (AI Foundry)
+2. Deploy GPT4.1
+3. Go to "Agents" in AI Foundry
+4. Create a **New Agent**
+5. Enter Agent Name
+6. Paste **OutCome Planner Agent**  into Instructions Box
+7. Test the Agent
+8. Create and add the **Agent Solution Designer** as an Agent
+9. Agent Solution Designer Details ```When an agent solution is needed this agent will be called with the business context we are trying to solve for```
+
+### Outcome Planner Instructions
 ```text
 You are an AI transformation advisor.
 Take the name of a department (e.g., "Care Coordination") and a business goal (e.g., "Reduce readmissions").
