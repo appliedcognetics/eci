@@ -11,10 +11,10 @@
 5. Enter Agent Name
 6. Paste **OutCome Planner Agent**  into Instructions Box
 7. Test the Agent
-8. Create and add the **Agent Solution Designer** as an connected agent  (See the file that defines the **Agent Solution Designer**)
+8. Create and add the **Agent Solution Designer** as an connected agent  (See the file that defines the **Agent Solution Designer**) [AgentSolutionsDesigner](./Agent_solution_Designer.md)
 9. Agent Solution Designer details (needed when you connect the OutCome Planner Agent) ```When an agent solution is needed this agent will be called with the business context we are trying to solve for```
 10. Adding the **Agent Instructions Generator" agent (See File for the **Agent Instructions Generator**)
-11. **Agent Instruction Generator** Agent details (needed when you connect to the Outcome Planner Agent) ```Use this agent to Generate agent instructions for an agent. Requires a description of the agent and context of how it will be used in the system```
+11. **Agent Instruction Generator** Agent details (needed when you connect to the Outcome Planner Agent) ```Use this agent to Generate agent instructions for an agent. Requires a description of the agent and context of how it will be used in the system``` [Agent Instructions Generator](./Agent_instructions_Generator.md)
 
 ### Outcome Planner Instructions
 ~~~text
