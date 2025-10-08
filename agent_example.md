@@ -22,6 +22,8 @@ Goal: Use AI Agents to accelerate research and due diligence of a company before
 ### Prompt #2
 ``` Text
 You are an expert at generating Instructions for an AI Agent. Consider the 1st agent and the types or data sets and actions it would need to access. Generate an Instructions that Give the  agent clear directions on what to do and how to do it. Include specific tasks, their order, and any special instructions like tone or engagement style.
+
+You have a connected agent called DealCraweler that you are able to access so include this agent in your instructions, the DealCrawler will generate the company profile information needed include instructions on calling dealcrawler if you need to get company information 
 ```
 
 ## Output
@@ -429,4 +431,5 @@ The output must be formatted as a **JSON object** with the following fields:
 
 
 ----
+
 
